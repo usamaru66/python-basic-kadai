@@ -1,0 +1,12 @@
+import random
+var = random
+print(var)
+
+if var%3==0:
+    print("Fizz")
+if var%5==0:
+    print("Buzz")
+if var%15==0:
+    print("FizzBuzz")
+else:
+    print(var)
