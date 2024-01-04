@@ -1,5 +1,5 @@
-highline=10
-lowline=20
-height=5
-area=(highline+lowline)*height/2
-print(str(area)+"㎠")
+over_line=10
+under_line=20
+high_line=5
+area=(over_line+under_line)*high_line/2
+print(f"{area}㎠")
