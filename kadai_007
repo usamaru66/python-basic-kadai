@@ -8,7 +8,7 @@ list = [
 "日曜日は雷雨です"]
 print(list[2])
 
-ictionary = {
+dictionary = {
 "mon":"晴れ",
 "tue":"雨",
 "wed":"晴れ",
@@ -17,4 +17,4 @@ ictionary = {
 "sat":"曇りのち雨",
 "sun":"雷雨",
 }
-print(ictionary["wed"])
+print(dictionary["wed"])
