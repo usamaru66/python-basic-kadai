@@ -1,11 +1,12 @@
 import random
-var=random.randint(0,100)
+var=random.randint(0,30)
 
 if var%3==0:
   print("Fizz")
-if var%5==0:
+
+elif var%5==0:
   print("Buzz")
-if var%3==0 and var%5==0:
+elif var%3==0 and var%5==0:
   print("FizzBuzz")
 else:
   print(var)
