@@ -1,12 +1,11 @@
 import random
-var = random
-print(var)
+var=random.randint(0,100)
 
 if var%3==0:
-    print("Fizz")
+  print("Fizz")
 if var%5==0:
-    print("Buzz")
-if var%15==0:
-    print("FizzBuzz")
+  print("Buzz")
+if var%3==0 and var%5==0:
+  print("FizzBuzz")
 else:
-    print(var)
+  print(var)
