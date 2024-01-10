@@ -2,17 +2,12 @@ class Human:
   def __init__(self,name,age):
     self.name = name
     self.age = age
-  def printinfo(self,name,age):
-    self.name = name
-    self.age = age
-  def printinfo_name(self):
+  def printinfo(self):
     print(self.name)
-  def printinfo_age(self):
     print(self.age)
-
+  
 human=Human("尾崎智哉",27)
 
-human.printinfo_name()
-human.printinfo_age()
+human.printinfo()
 
 
