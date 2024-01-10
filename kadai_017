@@ -1,0 +1,13 @@
+class Human:
+  def __init__(self,name,age):
+    self.name = name
+    self.age = age
+  def check_adult(self):
+    if self.age>=20:
+      print("大人である。")
+    else:
+      print("大人ではない。")
+
+user_date={"太郎":22,"次郎":20,"三郎":18}
+for value in user_date.values():
+  value.age.check_adult()
