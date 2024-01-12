@@ -8,6 +8,10 @@ class Human:
     else:
       print("大人ではない。")
 
-user_date={"太郎":22,"次郎":20,"三郎":18}
-for value in user_date.values():
-  value.age.check_adult()
+tarou=Human("太郎",22)
+zirou=Human("次郎",20)
+sannrou=Human("三郎",18)
+
+human=[tarou,zirou,sannrou]
+for person in human:
+  person.check_adult()
