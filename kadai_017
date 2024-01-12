@@ -4,14 +4,11 @@ class Human:
     self.age = age
   def check_adult(self):
     if self.age>=20:
-      print("大人である。")
+      print(f"{name}は大人である。")
     else:
-      print("大人ではない。")
+      print(f"{name}は大人ではない。")
 
-tarou=Human("太郎",22)
-zirou=Human("次郎",20)
-sannrou=Human("三郎",18)
-
-human=[tarou,zirou,sannrou]
-for person in human:
+user_date={"太郎":22,"次郎":20,"三郎":18}
+for name,age in user_date.items():
+  person=Human(name,age)
   person.check_adult()
